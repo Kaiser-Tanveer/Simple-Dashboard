@@ -1,16 +1,16 @@
-import Main from "../Assets/Layouts/Main";
-import DashboardMenu from "../Pages/Dashboard/DashboardMenu/DashboardMenu";
+import DashboardLayout from "../Layouts/DashboardLayout";
 
 const { createBrowserRouter } = require("react-router-dom");
 
 const router = createBrowserRouter([
     {
         path: '/',
-        element: <Main />
-    },
-    {
-        path: '/',
-        element: <DashboardMenu />
+        element: <DashboardLayout />,
+        children: [
+            {
+                path: '/dashboard',
+            }
+        ]
     },
 ]);
 

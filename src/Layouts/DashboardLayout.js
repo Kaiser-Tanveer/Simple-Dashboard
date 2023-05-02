@@ -85,7 +85,7 @@ const DashboardLayout = () => {
                     <div className='w-[90%] bg-base-200 rounded-md'>
                         <div className='flex flex-row items-center p-2'>
                             <img src={schoolLogo} alt="" className='w-14 rounded-full' />
-                            <h4 className='text-[#0045bc] font-bold ml-2'>Paresh International School, Hyderabad</h4>
+                            <h4 className='text-[#0045bc] font-semibold ml-2'>Paresh International School, Hyderabad</h4>
                         </div>
                     </div>
                     <li><h3 className='font-bold text-2xl pb-6 text-[#002e7f]'>Dashboard</h3></li>

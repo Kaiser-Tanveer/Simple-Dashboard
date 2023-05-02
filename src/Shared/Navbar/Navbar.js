@@ -16,7 +16,7 @@ const Navbar = () => {
                 <h5 className='text-right font-semibold px-2'>Rajesh Kumar <br />
                     <span className='text-[#0075bc]'>7th A</span></h5>
                 <img src={profile} alt="profileIcon" className='w-10 rounded-full' />
-                <img src={logOut} alt="logOutIcon" className='w-6' />
+                <img src={logOut} alt="logOutIcon" className='w-6 ml-2' />
             </div>
         </header>
     );

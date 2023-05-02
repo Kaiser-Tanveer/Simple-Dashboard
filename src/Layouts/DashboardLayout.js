@@ -81,7 +81,7 @@ const DashboardLayout = () => {
             </div>
             <div className="drawer-side">
                 <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
-                <ul className="menu p-4 pb-0 w-80 text-base-content">
+                <ul className="menu p-4 pb-0 pr-0 w-80 text-base-content">
                     <div className='w-[90%] bg-base-200 rounded-md'>
                         <div className='flex flex-row items-center p-2'>
                             <img src={schoolLogo} alt="" className='w-14 rounded-full' />
